@@ -11,6 +11,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Number" />
+
     <EditText
         android:id="@+id/number"
         android:layout_width="wrap_content"
@@ -20,13 +27,25 @@
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="16dp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="202dp"
-        android:layout_height="59dp"
-        android:text="Send SMS "
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="91dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Emergancy contacts numbers" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
 
     <Button
         android:id="@+id/contact"
@@ -36,14 +55,19 @@
         tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="169dp" />
 
-    <EditText
-        android:id="@+id/listcontact"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="272dp" />
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="202dp"
+        android:layout_height="59dp"
+        android:text="Send SMS "
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="91dp" />
 
 </LinearLayout>
 
